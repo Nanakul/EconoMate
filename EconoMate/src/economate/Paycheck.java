@@ -14,23 +14,18 @@ public class Paycheck {
         this.paycheckAmount = paycheckAmount;
         this.savePercentage = savePercentage;
     }
-
     // Getters
-
     public double getPaycheckAmount() {
         return paycheckAmount;
     }
-
     public double getSavePercentage() {
         return savePercentage;
     }
 
     // Setters
-
     public void setPaycheckAmount(double paycheckAmount) {
         this.paycheckAmount = paycheckAmount;
     }
-
     public void setSavePercentage(double savePercentage) {
         this.savePercentage = savePercentage;
     }

@@ -33,4 +33,9 @@ public class Paycheck {
         double savings = ((savePercentage / 100) * paycheckAmount);
         return (double) Math.round(savings * 100) / 100; // Round to 2 decimal places
     }
+
+    public double calculatePaycheckAfterSave() {
+        double savings = calculateSavePercentage();
+        return (double) Math.round((paycheckAmount - savings) * 100) / 100; // Round to 2 decimal places
+    }
 }
